@@ -2,7 +2,7 @@ var goButton = document.getElementById("GoButton")
 var departureTime = document.getElementById("DepartureTime")
 var arrivalTime = document.getElementById("ArrivalTime")
 var departureDate = document.getElementById("DepartureDate")
-url = "http://bkciccar.pythonanywhere.com/"
+url = "https://bkciccar.pythonanywhere.com/"
 function getDelay(){
     var xhr = new XMLHttpRequest();
     xhr.open("POST", url, true);
