@@ -43,7 +43,6 @@ def predict_tabular_regression_sample(
         return(str(dict(prediction)).replace("'",'"'))
 
 
-
 app = Flask(__name__)
 CORS(app)
 
